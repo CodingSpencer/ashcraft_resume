@@ -3,7 +3,177 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Ashcraft Home</title>
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/home.css" />
+    <script src="scripts/main.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="header-content">
+        <h2>Spencer's Resume</h2>
+      </div>
+      <button class="openbtn" onclick="openSide()">☰</button>
+    </header>
+
+    <div id="sidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeSide()"
+        >&times;</a
+      >
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="site-plan.html">Site Plan</a>
+    </div>
+
+    <main>
+      <div class="infoContainer">
+        <div class="sideTab">
+          <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'info1')">
+              Who is Spencer Ashcraft?
+            </button>
+            <button class="tablinks" onclick="openTab(event, 'info2')">
+              What are Spencer's skills?
+            </button>
+            <button class="tablinks" onclick="openTab(event, 'info3')">
+              Interests and Hobbies
+            </button>
+          </div>
+
+          <div id="info1" class="tabcontent">
+            <h3>Who is Spencer Ashcraft?</h3>
+            <div class="box">
+              <img
+                class="profile info-image"
+                src="images/resume_picture.jpg"
+                alt="profile picture"
+              />
+              <p class=".info-content">
+                Spencer Ashcraft is a dedicated software engineering student at
+                Brigham Young University-Idaho (BYU-I) hailing from Salem, Utah.
+                With a solid foundation in computer programming, demonstrated
+                through a specialized certificate, Spencer combines technical
+                expertise with a keen interest in cybersecurity. His educational
+                journey has equipped him with hands-on experience in various
+                programming languages and development methodologies, alongside a
+                strong understanding of cybersecurity principles. Spencer's
+                proactive approach to learning and problem-solving, coupled with
+                his passion for technology, positions him as a promising
+                candidate for roles in software development and cybersecurity.
+              </p>
+              <p class=".info-content">
+                Spencer's commitment to his field extends beyond the classroom.
+                He actively engages in practical projects that hone his skills
+                and address real-world challenges. Whether it's developing
+                complex software applications, conducting rigorous risk
+                analysis, or exploring innovative cybersecurity solutions,
+                Spencer approaches each task with meticulous attention to detail
+                and a problem-solving mindset. His ability to integrate
+                theoretical knowledge with practical experience allows him to
+                tackle diverse technical challenges effectively. Additionally,
+                Spencer's involvement in extracurricular activities, such as
+                contributing to open-source projects and participating in
+                tech-related workshops, underscores his dedication to continuous
+                learning and professional growth. These experiences not only
+                enhance his technical acumen but also reflect his readiness to
+                make meaningful contributions to the software engineering and
+                cybersecurity fields.
+              </p>
+            </div>
+          </div>
+
+          <div id="info2" class="tabcontent">
+            <h3>What are Spencer's skills?</h3>
+            <div class="box">
+              <img
+                class="coder info-image"
+                src="images/coder.png"
+                alt="coding image"
+              />
+              <div class=".info-content">
+                <ul>
+                  <h3>Languages</h3>
+                  <li>C#</li>
+                  <li>Javascript</li>
+                  <li>Kotlin</li>
+                  <li>Python</li>
+                  <li>C++</li>
+
+                  <h3>Skills</h3>
+                  <li>Team Collaboration</li>
+                  <li>Robotics</li>
+                  <li>Communication</li>
+                  <li>Web Fundamentals</li>
+                  <li>GitS</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div id="info3" class="tabcontent">
+            <h3>Interests and Hobbies</h3>
+            <div class="box">
+              <img
+                class="captain info-image"
+                src="images/capSpencer.png"
+                alt="spencer holding cap's shield"
+              />
+              <ul>
+                <h3>Hobbies</h3>
+                <li>Lego Enthusiast</li>
+                <li>Disc Golf</li>
+                <li>Law and Politics</li>
+                <li>Movie Fanatic</li>
+                <li>Special Needs Service</li>
+              </ul>
+              <p class=".info-content">
+                <b>Spencer Ashcraft</b> is a dedicated and enthusiastic
+                individual with a strong background in both technology and
+                personal interests. Currently pursuing a degree in software
+                engineering at Brigham Young University-Idaho (BYUI), Spencer
+                has demonstrated a keen interest and growing expertise in
+                cybersecurity, complemented by a computer programming
+                certificate. His academic journey is supported by a solid
+                foundation in programming and a proactive approach to learning
+                about various cybersecurity aspects. Outside the realm of
+                technology, Spencer is passionate about several diverse
+                interests. He has a deep affinity for LEGO building, which
+                reflects his creativity and problem-solving skills. Spencer is
+                also an avid fan of Captain America, disc golf, and movies. His
+                appreciation for law showcases his broad intellectual curiosity
+                and commitment to understanding complex systems. Spencer’s
+                diverse hobbies and interests contribute to a well-rounded
+                perspective, enhancing his problem-solving abilities and
+                teamwork skills in both professional and personal settings.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>Personal Site 2024 - Spencer Ashcraft</p>
+      <p><a href="site-plan.html">Site Plan</a></p>
+      <p><a href="contactus.html">Contact Us</a></p>
+      <div class="social">
+        <a href="https://facebook.com" target="_blank">
+          <img src="images/socials/facebook.png" alt="fb icon" class="icon" />
+        </a>
+        <a href="https://linkedin.com" target="_blank">
+          <img src="images/socials/linkedin.png" alt="in icon" class="icon" />
+        </a>
+        <a href="https://instagram.com" target="_blank">
+          <img
+            src="images/socials/instagram.png"
+            alt="insta icon"
+            class="icon"
+          />
+        </a>
+        <a href="https://youtube.com" target="_blank">
+          <img src="images/socials/youtube.png" alt="yt icon" class="icon" />
+        </a>
+      </div>
+    </footer>
+  </body>
 </html>
