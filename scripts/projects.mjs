@@ -6,7 +6,7 @@ export const projects = [
     tags: ["API", "Spotify", "JavaScript"],
     description:
       "Used Spotify's API to create my own personalized recommendation method.",
-    image: "images/spotify.png",
+    image: "images/spotify.avif",
     type: "Personal",
   },
   {
@@ -16,7 +16,7 @@ export const projects = [
     tags: ["Unity", "Team Project", "C#"],
     description:
       "Created a game in a team setting while working in a team using an Agile structure to complete the project.",
-    image: "images/unity.png",
+    image: "images/unity.avif",
     type: "personal",
   },
 ];
