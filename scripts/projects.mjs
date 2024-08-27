@@ -19,4 +19,14 @@ export const projects = [
     image: "images/unity.avif",
     type: "personal",
   },
+  {
+    name: "Chess in Unity",
+    github: "https://github.com/JaredWightman/Chessboard.git",
+    lastUpdate: "07/19/2024",
+    tags: ["Unity", "Team Project", "C#"],
+    description:
+      "Created a game in a team setting while working in a team using an Agile structure to complete the project.",
+    image: "images/unity.avif",
+    type: "personal",
+  },
 ];
